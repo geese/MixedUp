@@ -1,0 +1,85 @@
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="6.5"
+    tools:context=".MealInfoFragment">
+
+
+    <TextView
+        android:id="@+id/txv_meal_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="(Meal Name)" />
+
+    <View
+        android:layout_marginBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <ScrollView
+        android:scrollbarSize="2dp"
+        android:scrollbarThumbVertical="@color/colorPrimary"
+        android:id="@+id/scrollview_meal_info"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.9"
+        android:scrollbarStyle="outsideInset">
+
+        <LinearLayout
+            android:id="@+id/container_meal_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+
+    </ScrollView>
+    <View
+        android:layout_marginBottom="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark" />
+
+
+
+
+
+
+        <FrameLayout
+            android:id="@+id/totals_container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5">
+
+        <ImageButton
+            android:id="@+id/img_btn_back_to_meal_view"
+            style="?android:attr/borderlessButtonStyle"
+            android:src="@drawable/back_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_back_to_meal_view"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="Back To Meal Ingredients"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

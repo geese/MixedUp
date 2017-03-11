@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/total_fat"
+        android:title="total fat"
+        />
+    <item
+        android:id="@+id/sat_fat"
+        android:title="sat fat"
+        />
+
+    <item
+        android:id="@+id/trans_fat"
+        android:title="trans fat"
+
+    />
+    <item
+        android:id="@+id/total_carbs"
+        android:title="total carbs"
+        />
+
+    <item
+        android:id="@+id/fiber"
+        android:title="fiber"
+
+        />
+    <item
+        android:id="@+id/sugars"
+        android:title="sugars"
+        />
+
+    <item
+        android:id="@+id/sodium"
+        android:title="sodium"
+
+       />
+    <item
+        android:id="@+id/cholesterol"
+        android:title="cholesterol"
+       />
+</menu>

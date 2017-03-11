@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chodos.gisela.mixedupmealcalculator.NutrxListFragment">
+
+
+    <LinearLayout
+        android:paddingTop="16dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:paddingBottom="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/attribution_jqfdgy"/>
+    </LinearLayout>
+
+
+<SearchView
+    android:id="@+id/srchv_nutrx"
+    android:iconifiedByDefault="false"
+    android:queryHint="Search Nutritionix.com"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+</SearchView>
+<LinearLayout
+    android:paddingStart="18dp"
+    android:paddingEnd="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ProgressBar
+        android:max="100"
+        android:indeterminate="true"
+        android:id="@+id/a_progressbar"
+        android:visibility="invisible"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

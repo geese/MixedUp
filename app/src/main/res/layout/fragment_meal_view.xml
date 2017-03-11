@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chodos.gisela.mixedupmealcalculator.MealViewFragment">
+
+    <EditText
+        android:id="@+id/meal_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:textColorHint="@color/colorPrimary"
+        android:hint="(Meal Name)" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:layout_marginRight="-24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Another Food Item"
+            android:textColor="@color/deeperOrange"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="-24dp" />
+
+        <ImageButton
+            android:id="@+id/img_btn_add_food_item"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_box_orange_24"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <ScrollView
+        android:scrollbarSize="2dp"
+        android:scrollbarThumbVertical="@color/colorPrimary"
+        android:id="@+id/scrollview_meal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:scrollbarStyle="outsideInset">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+
+    </ScrollView>
+
+
+    <!--
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        <Button
+            android:text="Calculate"
+            android:id="@+id/btn_calculateMeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    -->
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:id="@+id/menu_item_calculate"
+    android:title="Calculate"
+    android:icon="@drawable/calc"
+    app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_item_save"
+        android:title="Save Meal"
+        android:icon="@drawable/ic_save_white_48dp"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_item_delete"
+        android:title="Delete Meal"
+        app:showAsAction="never"/>
+
+
+</menu>

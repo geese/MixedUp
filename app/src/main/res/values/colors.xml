@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#689F38</color>
+    <color name="colorPrimaryDark">#558B2F</color>
+    <color name="colorAccent">#FF8A65</color>
+    <color name="blackText">#000000</color>
+    <color name="lightShade">#B3E5FC</color>
+    <color name="otherLightShade">#FFECB3</color>
+    <color name="deeperOrange">#E64A19</color>
+    <color name="darkestOrange">#BF360C</color>
+</resources>
+
+
+<!--689F38-->

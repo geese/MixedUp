@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">MixedUp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string-array name="serving_units_array">
+        <item>g</item>
+        <item>oz</item>
+        <item>mL</item>
+    </string-array>
+
+    <string-array name="amount_weight_array">
+        <item>g</item>
+        <item>oz</item>
+        <item>mL</item>
+        <item>fl oz</item>
+    </string-array>
+
+    <string-array name="nutrient_array">
+        <item>total fat:</item>
+        <item>sat fat:</item>
+        <item>trans fat:</item>
+        <item>total carbs:</item>
+        <item>fiber:</item>
+        <item>sugars:</item>
+        <item>cholesterol:</item>
+        <item>sodium:</item>
+        <item>protein:</item>
+    </string-array>
+
+    <string name="how_to_use">
+
+        <b>What is MixedUp?</b>\n\n
+It\'s a <b>companion app</b> for you&#8212;if you use a kitchen scale to weigh the food you eat,
+and then track calories and nutrient info in a food diary.\n\n
+
+<b>What MixedUp does for you:</b>\n\n
+It calculates calorie and nutrient information
+of foods that you weigh on a food scale.\n\n
+
+
+It does <u>not</u> track your food intake.  \n\n
+
+But it <u>does</u> give you data for your food diary.\n\n
+
+
+<b>What\'s unique about MixedUp?</b>\n\n
+The heart of this app is getting nutrient info
+about "mixed up" foods such as homemade smoothies or casseroles.\n\n
+You can weigh a portion of mixed up food, and get some
+data for your food diary.\n\n
+
+
+<b>But nutrient info for portions of mixed up foods can\'t be exact, can it?</b>\n\n
+No, if you scoop only cheesy noodles out of your casserole and none of the chicken,
+then the nutrient info will not adequately represent what\'s on your plate.\n\n
+However, if your scoop of the casserole is reasonably well-balanced, then your nutrient info
+will be <b>close enough</b> to be useful for your food diary.\n\n
+
+<b><u>INSTRUCTIONS</u></b>\n\n
+
+<b>Choose Food List or Meal List
+at any time by tapping the three bars in the
+upper left corner.</b>\n\n\n
+
+<b>Enter Food Items in your Food List.</b>\n\n
+
+To add a New Food Item:  \n
+\t\t  &#8226;Tap the &#43; in the menu bar.\n
+\t\t  &#8226;Choose "Search Nutritionix.com"\n
+\t\t\t\tor "Custom Food Item".\n\n
+
+Custom Food Item:\n
+\t\t  &#8226;Enter nutrient information yourself,\n
+\t\t\t\tprobably from a label.\n
+\t\t  &#8226;Tap the Save icon in the menu bar.\n\n
+
+Search Nutritionix.com:\n
+\t\t  &#8226;Use the Nutritionix.com search bar\n
+\t\t\t\tto search for a food item.\n
+\t\t  &#8226;Tap a search result to go to its "info card".\n
+\t\t  &#8226;To save this info, tap the dots in the\n
+\t\t\t\tmenu bar and select "Save Food Item."\n
+\t\t  &#8226;To edit first, tap the pencil in the menu bar,\n
+\t\t\t\tmake your changes, and save.\n\n
+        \t\t  &#8226;If the serving weight from Nutritionix.com\n
+        \t\t\t\thas a unit of measurement like \"slice\",\n
+        \t\t\t\tthen you can use a food scale to get the\n
+        \t\t\t\t\"slice\" weight in grams, ounces,\n
+        \t\t\t\tmilliliters or fluid ounces, and\n
+        \t\t\t\tmodify the food item record.\n\n
+
+
+<b>Make a Meal.</b>\n\n
+
+Selecting food items:\n
+\t\t  &#8226;Tap a food item to select it.\n
+\t\t  &#8226;You may select multiple food items.\n\n
+
+Overview of selections:\n
+\t\t  &#8226;Tap SHOW SELECTED button to see what\n
+\t\t\t\tyou have selected so far.\n\n
+
+See Meal Ingredients and Save a Meal:\n
+
+\t\t  &#8226;Tap MAKE MEAL button.\n
+\t\t  &#8226;You will go to Meal Ingredients "page".\n
+\t\t  &#8226;Weigh each food item on your kitchen scale.\n
+\t\t  &#8226;Enter the weight for each food item.\n
+\t\t  &#8226;To delete a food item, tap its red X.\n\n
+
+You may name your meal and save it!\n
+\t\t  &#8226;Tap the Save icon in the menu bar to save.\n
+\t\t  &#8226;This also saves the weights you have entered.\n\n
+
+
+<b>Calculate Meal Information.</b>\n\n
+
+<u>Note</u>:  A meal may be just one food!  Like an apple!\n\n
+
+See Meal Info:\n
+\t\t  &#8226;Tap the Calculator icon in the menu bar.\n\n
+
+<b>EXCITING!</b>  You can see:\n
+\t\t  &#8226;Total nutrient info for the whole meal\n
+\t\t  &#8226;Per Gram nutrient info for the whole meal\n\n
+For example:\n
+\t\t  &#8226;Your casserole portion weighs 250 grams.\n
+\t\t  &#8226;You know how many calories per gram are in\n
+\t\t\t\tthe casserole, and you can do the math\n
+\t\t\t\tfor your portion and enter it in your food diary.\n\n
+
+<b>Your List of Saved Meals</b>\n\n
+
+Tap the three bars in the upper left corner and select <b>Meal List</b>.\n\n
+
+Tap a Meal in the list to see and/or edit Meal Ingredients and calculate nutrient info.\n\n
+        
+
+</string>
+
+</resources>

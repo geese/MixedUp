@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chodos.gisela.mixedupmealcalculator.AttributionsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Utensils icon made by Freepik from www.flaticon.com" />
+    
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food scale icon adapted from work by nightcharges at www.vecteezy.com" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/img_btn_back_from_attributions"
+            style="?android:attr/borderlessButtonStyle"
+            android:src="@drawable/back_arrow"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_back_from_attributions"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="left"
+            android:gravity="left|center_vertical"
+            android:text="Back"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

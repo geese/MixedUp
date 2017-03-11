@@ -1,0 +1,14 @@
+0.  Make "Save" insert or update appropriately
+
+
+3.  make "are you sure?" alert dialog for deleting food item
+4.  load food items from SQLite in Async Task.
+
+
+7.  Refine unaccepted unit of measurement warning.
+
+9.  Allow variations on ml, mL, etc.  use trim as well.
+10.  Fix spacing on units spinner for edit food item.
+
+
+

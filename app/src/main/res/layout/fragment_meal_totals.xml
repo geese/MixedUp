@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chodos.gisela.mixedupmealcalculator.MealTotalsFragment">
+
+    <TableLayout
+        android:background="@layout/rounded_border_textview"
+        android:padding="8dp"
+        android:stretchColumns="*"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="2">
+        <TableRow></TableRow>
+        <TableRow>
+            <Space />
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Meal Totals"/>
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:text="Per Gram of Meal"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Calories"/>
+
+            <TextView
+                android:id="@+id/txv_freaking_cals"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="20"
+                android:id="@+id/txv_freaking_cals_per_gram"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:text="Protein"/>
+            <TextView
+                android:layout_gravity="center"
+                android:text="40 g"
+                android:id="@+id/txv_protein_meal_total"/>
+            <TextView
+                android:layout_gravity="center"
+                android:text="yo mama"
+                android:id="@+id/txv_protein_per_gram"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"
+                android:text="Other Nutrients"/>
+            <ImageButton
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/img_btn_nutrient_totals"
+                style="?android:attr/borderlessButtonStyle"
+
+                android:src="@drawable/ic_more_horiz_black_18dp" />
+            <ImageButton
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/img_btn_nutrient_per_gram"
+                style="?android:attr/borderlessButtonStyle"
+                android:src="@drawable/ic_more_horiz_black_18dp" />
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+</FrameLayout>

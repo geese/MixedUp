@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chodos.gisela.mixedupmealcalculator.HomeFragment">
+
+    <ImageView
+        android:id="@+id/img_food_scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="-4dp"
+        android:paddingLeft="2dp"
+
+        android:src="@drawable/hello_message_darker"/>
+
+
+</FrameLayout>
