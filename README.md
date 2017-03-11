@@ -1,2 +1,1 @@
-# MixedUp
-MixedUp Meal Calculator
+
